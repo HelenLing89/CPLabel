@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CPLabel.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //UIMenuController *menuC = [UIMenuController sharedMenuController];
+    //
+    [self addSubViews];
+}
+
+- (void)addSubViews {
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 200, 50)];
+    [self.view addSubview:textField];
+    textField.backgroundColor = [UIColor redColor];
+    CPLabel *cpLabel = [[CPLabel alloc] initWithFrame:CGRectMake(100, 300, 200, 50)];
+    [self.view addSubview:cpLabel];
+    cpLabel.text = @"长按复制粘贴哦";
+    cpLabel.backgroundColor = [UIColor cyanColor];
+    
 }
 
 
