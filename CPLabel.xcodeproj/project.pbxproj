@@ -14,6 +14,7 @@
 		748C21E7244EA64A0064D8F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748C21E6244EA64A0064D8F3 /* Assets.xcassets */; };
 		748C21EA244EA64A0064D8F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748C21E8244EA64A0064D8F3 /* LaunchScreen.storyboard */; };
 		748C21ED244EA64A0064D8F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 748C21EC244EA64A0064D8F3 /* main.m */; };
+		748C21F5244EA71C0064D8F3 /* CPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 748C21F4244EA71C0064D8F3 /* CPLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		748C21E9244EA64A0064D8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748C21EB244EA64A0064D8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748C21EC244EA64A0064D8F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		748C21F3244EA71C0064D8F3 /* CPLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPLabel.h; sourceTree = "<group>"; };
+		748C21F4244EA71C0064D8F3 /* CPLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				748C21DE244EA6490064D8F3 /* SceneDelegate.m */,
 				748C21E0244EA6490064D8F3 /* ViewController.h */,
 				748C21E1244EA6490064D8F3 /* ViewController.m */,
+				748C21F3244EA71C0064D8F3 /* CPLabel.h */,
+				748C21F4244EA71C0064D8F3 /* CPLabel.m */,
 				748C21E3244EA6490064D8F3 /* Main.storyboard */,
 				748C21E6244EA64A0064D8F3 /* Assets.xcassets */,
 				748C21E8244EA64A0064D8F3 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 				748C21E2244EA6490064D8F3 /* ViewController.m in Sources */,
 				748C21DC244EA6490064D8F3 /* AppDelegate.m in Sources */,
 				748C21ED244EA64A0064D8F3 /* main.m in Sources */,
+				748C21F5244EA71C0064D8F3 /* CPLabel.m in Sources */,
 				748C21DF244EA6490064D8F3 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
